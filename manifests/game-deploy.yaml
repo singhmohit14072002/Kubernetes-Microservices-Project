@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
       - name: game-service
-        image: saiyam911/game-service:final
+        image: singhmohit14072002/game-service:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 8081
